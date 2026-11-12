@@ -1,0 +1,39 @@
+{
+  "$schema": "./node_modules/oxlint/configuration_schema.json",
+  "plugins": ["react", "oxc"],
+  "env": {
+    "browser": true,
+    "es2022": true,
+    "node": false
+  },
+  "globals": {
+    "document": "readonly",
+    "window": "readonly",
+    "console": "readonly",
+    "fetch": "readonly",
+    "setTimeout": "readonly",
+    "clearTimeout": "readonly",
+    "setInterval": "readonly",
+    "clearInterval": "readonly",
+    "AbortSignal": "readonly"
+  },
+  "rules": {
+    "react/rules-of-hooks": "error",
+    "react/only-export-components": ["warn", { "allowConstantExport": true }],
+    "no-undef": "error",
+    "no-unused-vars": "warn"
+  },
+  "ignorePatterns": [
+    ".venv/**",
+    "venv/**",
+    "node_modules/**",
+    "dist/**",
+    "src/backend/**",
+    "scratch/**",
+    "SALEFOX_TEST_EVIDENCE/**",
+    "Amazon-Scraper-Node/**",
+    "Amazon-Scraper-main/**",
+    "Apple/**",
+    "Vivo/**"
+  ]
+}

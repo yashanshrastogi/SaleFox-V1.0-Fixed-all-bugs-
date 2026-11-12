@@ -1,0 +1,36 @@
+=== SALEFOX MASTER REGRESSION & VERIFICATION SUITE ===
+
+[STEP 1] Launching run_all_backends.py...
+All 9 services initialized: True (took 2.6s)
+
+[STEP 2] Testing /api/health endpoint efficiency across all 9 backends...
+  Amazon     | /api/health:   60 bytes (4.0ms) | /api/status: 1201030 bytes
+  Flipkart   | /api/health:   70 bytes (18.0ms) | /api/status:    5762 bytes
+  Vivo       | /api/health:   79 bytes (14.6ms) | /api/status:   19810 bytes
+  Samsung    | /api/health:   68 bytes (15.0ms) | /api/status:   13839 bytes
+  Croma      | /api/health:   66 bytes (16.0ms) | /api/status:    4494 bytes
+  Apple      | /api/health:   67 bytes (14.2ms) | /api/status:   40788 bytes
+  Reliance   | /api/health:   78 bytes (4.0ms) | /api/status:    4304 bytes
+  Oppo       | /api/health:  112 bytes (7.0ms) | /api/status:   54978 bytes
+  JioMart    | /api/health:  102 bytes (27.9ms) | /api/status:  153182 bytes
+
+[STEP 3] Testing Fail-Closed Checkout Safety API (/api/automation/start)...
+  Port 5050 | Empty Rejected: True | Fake Phone Rejected: True | Valid Demo Accepted: True
+  Port 5054 | Empty Rejected: True | Fake Phone Rejected: True | Valid Demo Accepted: True
+  Port 5055 | Empty Rejected: True | Fake Phone Rejected: True | Valid Demo Accepted: True
+
+[STEP 4] Testing Search & Field Integrity across backends...
+  Amazon     | Query: 'iPhone 15' | Items:   0 | Sample: None
+  Flipkart   | Query: 'iPhone 15' | Items:   2 | Sample: Apple iPhone 15 (Black, 128 GB)
+  Vivo       | Query: 'Vivo V30' | Items:  13 | Sample: Vivo V40 Pro 5G (Ganges Blue, 256 GB)
+  Samsung    | Query: 'Galaxy S24' | Items:  17 | Sample: Samsung Galaxy S24 5G (Amber Yellow, 128
+  Croma      | Query: 'iPhone 15' | Items:   4 | Sample: Apple iPhone 15 (128GB, Black)
+  Apple      | Query: 'iPhone 15' | Items:  58 | Sample: Apple iPhone 18 Pro Max (Burgundy, 1TB)
+  Reliance   | Query: 'iPhone 15' | Items:   5 | Sample: Apple iPhone 15 128 GB Green
+  Oppo       | Query: 'Oppo Reno 11' | Items:   2 | Sample: Oppo Reno11 Pro 5G (Pearl White, 12 GB R
+  JioMart    | Query: 'iPhone 15' | Items:   1 | Sample: Apple iPhone 15 Plus 512 GB, Pink
+
+[STEP 5] Shutting down launcher and all child processes...
+Active listening ports after shutdown: [] (0 expected)
+
+=== MASTER REGRESSION RUN COMPLETE ===

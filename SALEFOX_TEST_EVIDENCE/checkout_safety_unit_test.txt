@@ -1,0 +1,26 @@
+[PASS] 1. Unconfigured empty payload (No .env or payload)
+       Result: is_valid=False, msg='Missing required fields: customer_name, customer_phone, customer_email, delivery_address, delivery_pincode'
+[PASS] 2. Missing customer name
+       Result: is_valid=False, msg='Missing required fields: customer_name'
+[PASS] 3. Placeholder customer name ('SaleFox Customer')
+       Result: is_valid=False, msg='Invalid/placeholder fields: customer_name (placeholder value detected)'
+[PASS] 4. Placeholder phone number ('9876543210')
+       Result: is_valid=False, msg='Invalid/placeholder fields: customer_phone (placeholder test number is not permitted for checkout)'
+[PASS] 5. Invalid phone number (too short / invalid prefix)
+       Result: is_valid=False, msg='Invalid/placeholder fields: customer_phone (must be a valid 10-digit Indian mobile number)'
+[PASS] 6. Placeholder email address ('customer@example.com')
+       Result: is_valid=False, msg='Invalid/placeholder fields: customer_email (placeholder example.com address is not permitted for checkout)'
+[PASS] 7. Invalid PIN code ('012345' or '1234')
+       Result: is_valid=False, msg='Invalid/placeholder fields: delivery_pincode (must be a valid 6-digit Indian postal PIN code)'
+[PASS] 8. Disallowed legacy hardcoded address ('Himalayan Colony...')
+       Result: is_valid=False, msg='Invalid/placeholder fields: delivery_address (disallowed legacy placeholder address detected)'
+[PASS] 9. Inspection mode (read-only; no customer details required)
+       Result: is_valid=True, msg='Inspection mode: Read-only product inspection allowed.'
+[PASS] 10. Valid synthetic demo profile in dry_run mode
+       Result: is_valid=True, msg='Customer profile validated successfully in 'dry_run' mode.'
+[PASS] 11. Production mode without explicit user_confirmed
+       Result: is_valid=False, msg='Production mode requires explicit 'user_confirmed': true confirmation flag.'
+[PASS] 12. Production mode with user_confirmed: true
+       Result: is_valid=True, msg='Customer profile validated successfully in 'production' mode.'
+
+Total Passed: 12/12

@@ -1,0 +1,47 @@
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environments & bytecode
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.pyc
+
+# Node dependencies and builds
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# Browser automation profiles & runtime browser data
+**/amazon_profiles/
+**/reliance_profiles/
+**/croma_profiles/
+**/apple_profiles/
+**/profiles/
+**/*_profiles/
+**/user-data/
+**/browser_profiles/
+
+# Runtime artifacts and logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

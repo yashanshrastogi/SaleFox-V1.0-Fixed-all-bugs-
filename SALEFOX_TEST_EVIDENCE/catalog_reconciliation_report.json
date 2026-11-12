@@ -1,0 +1,74 @@
+{
+  "frontend_catalogs": {
+    "Amazon": {
+      "path": "src/backend/scraped_data/amazon_products.json",
+      "raw_count": 275,
+      "valid_count": 275,
+      "unique_names_count": 271,
+      "internal_duplicates": 4
+    },
+    "Apple": {
+      "path": "src/backend/brand_scrapers/apple/scraped_data/apple_products.json",
+      "raw_count": 58,
+      "valid_count": 58,
+      "unique_names_count": 58,
+      "internal_duplicates": 0
+    },
+    "Vivo": {
+      "path": "src/backend/brand_scrapers/vivo/scraped_data/vivo_products.json",
+      "raw_count": 13,
+      "valid_count": 13,
+      "unique_names_count": 13,
+      "internal_duplicates": 0
+    },
+    "Croma": {
+      "path": "src/backend/brand_scrapers/croma/scraped_data/croma_products.json",
+      "raw_count": 4,
+      "valid_count": 4,
+      "unique_names_count": 2,
+      "internal_duplicates": 2
+    },
+    "Samsung": {
+      "path": "src/backend/brand_scrapers/samsung/scraped_data/samsung_products.json",
+      "raw_count": 17,
+      "valid_count": 17,
+      "unique_names_count": 17,
+      "internal_duplicates": 0
+    },
+    "Reliance": {
+      "path": "src/backend/brand_scrapers/reliance/scraped_data/reliance_products.json",
+      "raw_count": 5,
+      "valid_count": 5,
+      "unique_names_count": 5,
+      "internal_duplicates": 0
+    },
+    "JioMart": {
+      "path": "src/backend/brand_scrapers/jiomart/scraped_data/jiomart_products.json",
+      "raw_count": 186,
+      "valid_count": 186,
+      "unique_names_count": 186,
+      "internal_duplicates": 0
+    },
+    "Oppo": {
+      "path": "src/backend/brand_scrapers/oppo/scraped_data/oppo_products.json",
+      "raw_count": 54,
+      "valid_count": 54,
+      "unique_names_count": 54,
+      "internal_duplicates": 0
+    },
+    "Flipkart": {
+      "path": "src/backend/scraped_data/flipkart_products.json",
+      "raw_count": 93,
+      "valid_count": 93,
+      "unique_names_count": 83,
+      "internal_duplicates": 10
+    }
+  },
+  "total_raw": 705,
+  "unique_titles": 684,
+  "explanation_1360_vs_1320": {
+    "sum_with_93_flipkart": 1411,
+    "sum_with_2_flipkart": 1320,
+    "delta": 91
+  }
+}

@@ -1,0 +1,214 @@
+{
+  "health_efficiency": {
+    "Amazon": {
+      "health_endpoint": {
+        "ok": true,
+        "status": 200,
+        "size_bytes": 60,
+        "latency_ms": 4.0
+      },
+      "status_endpoint": {
+        "ok": true,
+        "status": 200,
+        "size_bytes": 1201030,
+        "latency_ms": 49.82
+      }
+    },
+    "Flipkart": {
+      "health_endpoint": {
+        "ok": true,
+        "status": 200,
+        "size_bytes": 70,
+        "latency_ms": 17.99
+      },
+      "status_endpoint": {
+        "ok": true,
+        "status": 200,
+        "size_bytes": 5762,
+        "latency_ms": 16.0
+      }
+    },
+    "Vivo": {
+      "health_endpoint": {
+        "ok": true,
+        "status": 200,
+        "size_bytes": 79,
+        "latency_ms": 14.59
+      },
+      "status_endpoint": {
+        "ok": true,
+        "status": 200,
+        "size_bytes": 19810,
+        "latency_ms": 16.2
+      }
+    },
+    "Samsung": {
+      "health_endpoint": {
+        "ok": true,
+        "status": 200,
+        "size_bytes": 68,
+        "latency_ms": 15.02
+      },
+      "status_endpoint": {
+        "ok": true,
+        "status": 200,
+        "size_bytes": 13839,
+        "latency_ms": 15.31
+      }
+    },
+    "Croma": {
+      "health_endpoint": {
+        "ok": true,
+        "status": 200,
+        "size_bytes": 66,
+        "latency_ms": 16.0
+      },
+      "status_endpoint": {
+        "ok": true,
+        "status": 200,
+        "size_bytes": 4494,
+        "latency_ms": 16.0
+      }
+    },
+    "Apple": {
+      "health_endpoint": {
+        "ok": true,
+        "status": 200,
+        "size_bytes": 67,
+        "latency_ms": 14.16
+      },
+      "status_endpoint": {
+        "ok": true,
+        "status": 200,
+        "size_bytes": 40788,
+        "latency_ms": 14.2
+      }
+    },
+    "Reliance": {
+      "health_endpoint": {
+        "ok": true,
+        "status": 200,
+        "size_bytes": 78,
+        "latency_ms": 4.01
+      },
+      "status_endpoint": {
+        "ok": true,
+        "status": 200,
+        "size_bytes": 4304,
+        "latency_ms": 28.08
+      }
+    },
+    "Oppo": {
+      "health_endpoint": {
+        "ok": true,
+        "status": 200,
+        "size_bytes": 112,
+        "latency_ms": 7.01
+      },
+      "status_endpoint": {
+        "ok": true,
+        "status": 200,
+        "size_bytes": 54978,
+        "latency_ms": 8.42
+      }
+    },
+    "JioMart": {
+      "health_endpoint": {
+        "ok": true,
+        "status": 200,
+        "size_bytes": 102,
+        "latency_ms": 27.93
+      },
+      "status_endpoint": {
+        "ok": true,
+        "status": 200,
+        "size_bytes": 153182,
+        "latency_ms": 15.1
+      }
+    }
+  },
+  "checkout_safety": {
+    "5050": {
+      "empty_rejected": true,
+      "fake_phone_rejected": true,
+      "valid_demo_accepted": true
+    },
+    "5054": {
+      "empty_rejected": true,
+      "fake_phone_rejected": true,
+      "valid_demo_accepted": true
+    },
+    "5055": {
+      "empty_rejected": true,
+      "fake_phone_rejected": true,
+      "valid_demo_accepted": true
+    }
+  },
+  "search_integrity": {
+    "Amazon": {
+      "query": "iPhone 15",
+      "triggered": true,
+      "items_found": 0,
+      "sample_title": null,
+      "sample_price": null
+    },
+    "Flipkart": {
+      "query": "iPhone 15",
+      "triggered": true,
+      "items_found": 2,
+      "sample_title": "Apple iPhone 15 (Black, 128 GB)",
+      "sample_price": "\u20b969,999"
+    },
+    "Vivo": {
+      "query": "Vivo V30",
+      "triggered": true,
+      "items_found": 13,
+      "sample_title": "Vivo V40 Pro 5G (Ganges Blue, 256 GB)",
+      "sample_price": "\u20b949,999"
+    },
+    "Samsung": {
+      "query": "Galaxy S24",
+      "triggered": true,
+      "items_found": 17,
+      "sample_title": "Samsung Galaxy S24 5G (Amber Yellow, 128 GB, 8 gb memory)",
+      "sample_price": "\u20b974,999"
+    },
+    "Croma": {
+      "query": "iPhone 15",
+      "triggered": true,
+      "items_found": 4,
+      "sample_title": "Apple iPhone 15 (128GB, Black)",
+      "sample_price": "\u20b970,990"
+    },
+    "Apple": {
+      "query": "iPhone 15",
+      "triggered": true,
+      "items_found": 58,
+      "sample_title": "Apple iPhone 18 Pro Max (Burgundy, 1TB)",
+      "sample_price": "\u20b9254,900"
+    },
+    "Reliance": {
+      "query": "iPhone 15",
+      "triggered": true,
+      "items_found": 5,
+      "sample_title": "Apple iPhone 15 128 GB Green",
+      "sample_price": "\u20b959,900"
+    },
+    "Oppo": {
+      "query": "Oppo Reno 11",
+      "triggered": true,
+      "items_found": 2,
+      "sample_title": "Oppo Reno11 Pro 5G (Pearl White, 12 GB RAM, 256 GB)",
+      "sample_price": "\u20b934,999"
+    },
+    "JioMart": {
+      "query": "iPhone 15",
+      "triggered": true,
+      "items_found": 1,
+      "sample_title": "Apple iPhone 15 Plus 512 GB, Pink",
+      "sample_price": "\u20b999,900"
+    }
+  },
+  "lingering_ports": [],
+  "lifecycle_clean": true
+}

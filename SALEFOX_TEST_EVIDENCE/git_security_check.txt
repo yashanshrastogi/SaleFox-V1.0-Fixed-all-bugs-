@@ -1,0 +1,7 @@
+﻿=== GIT CHECK-IGNORE TEST ===
+.env -> .gitignore:2:.env	.env
+.env.local -> .gitignore:17:*.local	.env.local
+.env.production -> .gitignore:3:.env.*	.env.production
+.env.example -> .gitignore:4:!.env.example	.env.example
+src/backend/brand_scrapers/amazon/amazon_profiles -> src/backend/brand_scrapers/amazon/.gitignore:4:amazon_profiles/	src/backend/brand_scrapers/amazon/amazon_profiles
+src/backend/brand_scrapers/reliance/reliance_profiles -> .gitignore:21:**/reliance_profiles/	src/backend/brand_scrapers/reliance/reliance_profiles
