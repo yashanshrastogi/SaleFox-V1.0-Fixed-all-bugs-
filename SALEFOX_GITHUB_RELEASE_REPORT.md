@@ -113,3 +113,4 @@ All previously documented startup issues, path dependencies, network overheads, 
 1. **Anti-Bot Protections**: Amazon and Flipkart aggressively block public cloud datacenters. Residential proxy rotation should be configured in `HEADLESS_SCRAPER_PROXY` for external production deployments.
 2. **License**: The repository license is not yet specified. All rights remain reserved by the authors.
 3. **Future Architecture (v2.0)**: SaleFox v2.0 (SQLite migration, unified adapter pattern, and distributed queue) remains on hold as instructed.
+

@@ -92,3 +92,4 @@ SaleFox is an intelligence aggregator designed to compare pricing, stock availab
 **SaleFox v1.0.0-rc1 is certified READY FOR STAGING / DEMONSTRATION.**
 
 The application starts reproducibly on any Windows workstation adhering to the system requirements, connects to all 9 scraper microservices, presents clear data freshness indications, and strictly enforces checkout safety.
+
